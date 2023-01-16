@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "576914366963",
+    "firebase_url": "https://take-me-home-428aa-default-rtdb.firebaseio.com",
+    "project_id": "take-me-home-428aa",
+    "storage_bucket": "take-me-home-428aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576914366963:android:6f529f534b0109be0ff286",
+        "android_client_info": {
+          "package_name": "com.example.take_me_home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576914366963-v4412e78jd1opeq84cjrvhncstr094fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-OluKXHR1yRSwaxhmonyUJ2eck_fhxYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576914366963-v4412e78jd1opeq84cjrvhncstr094fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

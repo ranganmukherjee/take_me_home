@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".Owner">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/bg4" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Name:-"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ed1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="132dp"
+        android:ems="10"
+        android:hint="Enter your address"
+        android:inputType="textPersonName"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FFFFFE"
+        app:layout_constraintBottom_toTopOf="@+id/ed3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:text="Address:-"
+        android:textColor="#FBFBFA"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ed2"
+        app:layout_constraintEnd_toStartOf="@+id/ed2" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="288dp"
+        android:ems="10"
+        android:hint="Enter your phone no."
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FDFDFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:text="Phone no."
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ed3"
+        app:layout_constraintEnd_toStartOf="@+id/ed3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="210dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/button_need"
+        android:text="Save"
+        android:textColor="#191919"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed3" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="84dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFC"
+        app:layout_constraintBottom_toTopOf="@+id/ed2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
