@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="472dp"
-                android:fontFamily="casual"
+                android:fontFamily="@font/poppins"
                 android:text="Enter your details"
                 android:textColor="#ffffff"
                 android:textSize="25sp"
@@ -38,7 +38,7 @@
             <EditText
                 android:id="@+id/Name_1"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="44dp"
                 android:layout_marginEnd="64dp"
@@ -56,7 +56,7 @@
             <EditText
                 android:id="@+id/Email_1"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="100dp"
                 android:layout_marginEnd="64dp"
@@ -75,7 +75,7 @@
             <EditText
                 android:id="@+id/profession_1"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="155dp"
                 android:layout_marginEnd="64dp"
@@ -94,7 +94,7 @@
             <EditText
                 android:id="@+id/cno_1"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="208dp"
                 android:layout_marginEnd="64dp"
@@ -115,7 +115,7 @@
             <EditText
                 android:id="@+id/dlink"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="208dp"
                 android:layout_marginEnd="64dp"

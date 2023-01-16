@@ -14,26 +14,26 @@
         android:layout_weight="0.2"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:fontFamily="cursive"
-            android:gravity="center"
-            android:text="Hi there"
-            android:textColor="#000000"
-            android:textSize="70dp" />
+<!--        <TextView-->
+<!--            android:id="@+id/tv1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:fontFamily="cursive"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Hi there"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="70dp" />-->
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="Welcome to TMH"
+<!--        <TextView-->
+<!--            android:id="@+id/textView14"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Welcome to TMH"-->
 
-            android:textColor="#000000" />
+<!--            android:textColor="#000000" />-->
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="351dp"
-                android:fontFamily="casual"
+                android:fontFamily="@font/poppins"
                 android:text="Take Me Home"
                 android:textColor="#ffffff"
                 android:textSize="25sp"
@@ -71,7 +71,7 @@
             <EditText
                 android:id="@+id/Name_1"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="44dp"
                 android:layout_marginEnd="64dp"
@@ -89,7 +89,7 @@
             <EditText
                 android:id="@+id/Email_1"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="100dp"
                 android:layout_marginEnd="64dp"
@@ -108,7 +108,7 @@
             <EditText
                 android:id="@+id/profession_1"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="155dp"
                 android:layout_marginEnd="64dp"
@@ -142,33 +142,30 @@
                 android:id="@+id/tv4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="casual"
-                android:text="Alredy have an account??"
+
+                android:text="Already have an account?"
                 android:textColor="#ffffff"
-                android:textSize="15sp"
+                android:textSize="17sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.387"
+                app:layout_constraintHorizontal_bias="0.4"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Save_1"
-                app:layout_constraintVertical_bias="0.673" />
+                app:layout_constraintTop_toBottomOf="@+id/Save_1" />
 
             <TextView
                 android:id="@+id/tv5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-                android:paddingLeft="225dp"
                 android:text="Log In"
-                android:textColor="#ff0000"
-                android:textSize="15sp"
+                android:textColor="#FF3300"
+                android:textSize="17sp"
                 android:textStyle="bold"
+                android:paddingLeft="3dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.365"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Save_1"
-                app:layout_constraintVertical_bias="0.641" />
+                app:layout_constraintHorizontal_bias="0.035"
+                app:layout_constraintStart_toEndOf="@id/tv4"
+                app:layout_constraintTop_toBottomOf="@+id/Save_1" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -176,10 +173,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="18dp"
-                android:fontFamily="casual"
+                android:fontFamily="@font/poppins"
                 android:text="Sign Up"
                 android:textColor="#ffffff"
-                android:textSize="35sp"
+                android:textSize="38sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/imageView3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
