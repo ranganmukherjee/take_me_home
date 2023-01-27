@@ -65,7 +65,7 @@ public class Myadapter extends RecyclerView.Adapter<Myadapter.MyViewHolder> {
 
                 owner = FirebaseDatabase.getInstance();
                 ref = owner.getReference();
-                ref.child("Owner").child(user.getPhone()).setValue(student);
+                ref.child("Owner").child(user.getPhone()).child(Info.cno).setValue(student);
 
 //                DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference();
 //                DatabaseReference tasksRef = rootRef.child("USERS").push();
