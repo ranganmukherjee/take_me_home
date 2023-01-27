@@ -35,11 +35,11 @@ public class S_signup extends AppCompatActivity {
                 String d = ed4.getText().toString();
                 String e = ed5.getText().toString();
                 Intent intent = new Intent(S_signup.this,student.class);
-                intent.putExtra("Name",a);
-                intent.putExtra("Email",b);
-                intent.putExtra("profession",c);
-                intent.putExtra("cno",d);
-                intent.putExtra("dlink",e);
+                Info.name = a;
+                Info.email = b;
+                Info.prof = c;
+                Info.cno = d;
+                Info.dlink = e;
                 startActivity(intent);
             }
         });

@@ -16,38 +16,32 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.jar.Attributes;
 
 public class student extends AppCompatActivity {
     RecyclerView rv;
     DatabaseReference databse;
     Myadapter myadapter;
     ArrayList<User> list;
-//     TextView tv1;
-//     TextView tv2;
-//     TextView tv3;
-//     TextView tv4;
-//     TextView tv5;
+
+
+
+//        String req_name = Name;
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student);
-//        tv1 = findViewById(R.id.Name_2);
+//        tv1 =
 //        tv2 = findViewById(R.id.Email_2);
 //        tv3 = findViewById(R.id.profession_2);
 //        tv4 = findViewById(R.id.cno_2);
 //        tv5 = findViewById(R.id.dlink_2);
 
-//        String Name = getIntent().getStringExtra("Name");
-//        String Email = getIntent().getStringExtra("Email");
-//        String profession = getIntent().getStringExtra("profession");
-//        String cno = getIntent().getStringExtra("cno");
-//        String dlink = getIntent().getStringExtra("dlink");
 
-//        tv1.setText(Name);
-//        tv2.setText(Email);
-//        tv3.setText(profession);
-//        tv4.setText(cno);
-//        tv5.setText(dlink);
         //recycler view stuff
         rv = findViewById(R.id.rv);
         databse = FirebaseDatabase.getInstance().getReference("users");
@@ -77,4 +71,6 @@ public class student extends AppCompatActivity {
 
 
     }
+
+
 }

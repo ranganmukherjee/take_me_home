@@ -66,5 +66,14 @@
             android:text="TextView"
             android:textSize="24sp" />
 
+        <Button
+            android:id="@+id/interested"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+
+            android:padding="20dp"
+            android:text="Interested" />
+
     </androidx.cardview.widget.CardView>
 </LinearLayout>
