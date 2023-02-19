@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,8 +21,8 @@ public class Myadapter extends RecyclerView.Adapter<Myadapter.MyViewHolder> {
     Context context;
     ArrayList<User> list;
 
-    public Myadapter() {
-    }
+//    public Myadapter(infoforowner context, ArrayList<Iuser> list1) {
+//    }
 
     public Myadapter(Context context, ArrayList<User> list) {
         this.context = context;

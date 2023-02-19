@@ -2,6 +2,7 @@ package com.example.take_me_home;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,7 +28,7 @@ public class Owner extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        binding = ActivityOwnerBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_owner);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
         button3 = findViewById(R.id.button3);
         ed1 = findViewById(R.id.ed1);
         ed2 = findViewById(R.id.ed2);
@@ -38,8 +39,11 @@ public class Owner extends AppCompatActivity {
                 Toast.makeText(Owner.this, "clicked", Toast.LENGTH_SHORT).show();
                 owner = FirebaseDatabase.getInstance();
                 ref = owner.getReference();
+                ownerphone.pno=ed3.getText().toString();
                 User user = new User(ed1.getText().toString(),ed2.getText().toString(),ed3.getText().toString());
                 ref.child("users").child(user.getPhone()).setValue(user);
+                Intent intent = new Intent(Owner.this,infoforowner.class);
+                startActivity(intent);
             }
         });
     }
